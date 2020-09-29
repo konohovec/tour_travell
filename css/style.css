@@ -1,0 +1,152 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+/*************/
+
+
+
+/*********ШРИФТЫ**********/
+
+@font-face {
+	font-family: 'Inter'; 
+	src: url('../fonts/Inter-Regular-slnt=0.ttf'); 
+}
+@font-face {
+	font-family: 'Playfair Display'; 
+	src: url('../fonts/PlayfairDisplay-Regular.ttf'); 
+}
+
+
+
+body {
+	background: #FFFFFF;;
+}
+.wrapper {
+}
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+.container {
+	max-width: 1304px;
+	margin: 0 auto;
+}
+.header__menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 45px;
+}
+.header__logo {
+	width: 41px;
+	height: 41px;
+}
+.header__nav {
+	display: flex;
+}
+.header__list {
+	display: flex;
+	align-items: center;
+}
+.header__list a {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #B8BECD;
+}
+.header__list a:hover {
+	color: #202336;
+}
+.header__list li {
+	margin: 0 17px;
+}
+.header__button {
+}
+.header__button button {
+	margin: 0 9px ;
+	width: 132px;
+	height: 60px;
+	color: #FB8F1D;
+	font-family: 'Inter';
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 60px;
+	letter-spacing: 0em;
+	border: 1px solid #FB8F1D;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	border-radius: 8px;
+}
+.header__button button:nth-child(2n) {
+	background: #FB8F1D;
+	border-radius: 8px;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+.main {
+	margin-top: 170px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.explore {
+}
+.explore__search {
+}
+.explore__title {
+}
+.explore__text {
+}
+.explore__filter {
+}
+.explore__filter_select {
+}
+.explore__button {
+}
+.explore__img {
+}
