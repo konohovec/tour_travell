@@ -493,16 +493,17 @@ body {
 	margin-bottom: 56px;
 }
 .trend__content {
+	overflow: hidden;
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 .trend__item {
+	float: left;
 	display: flex;
 	flex-direction: column;
 	width: 25%;
-	height: 100%;
+	height: auto;
 	padding: 12.5px;
 }
 .trend__img {
@@ -542,6 +543,7 @@ body {
 
 
 .footer {
+	width: 100%;
 	margin-top: 271px;
 	background: #F9F9FB;
 }
