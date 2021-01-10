@@ -611,6 +611,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	margin: 33px 0;
+	padding-bottom: 33px;
 }
 .footer__social a {
 	margin: 0 17.5px;
